@@ -1,7 +1,7 @@
 node_modules/
-.env
-.env.*
-*.env
-shopsmart-backend/.env
-shopsmart-frontend/.env
+# .env
+# .env.*
+# *.env
+# shopsmart-backend/.env
+# shopsmart-frontend/.env
 dist/

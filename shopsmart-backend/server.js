@@ -23,6 +23,7 @@ const app = express();
 const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:3000',
+  'https://shop-smart-ai-ten.vercel.app/' ,
   ...(process.env.CLIENT_ORIGIN ? [process.env.CLIENT_ORIGIN.replace(/\/+$/, '')] : [])
 ];
 

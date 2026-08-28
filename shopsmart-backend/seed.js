@@ -1,5 +1,5 @@
 // Run with: node seed.js
-require('dotenv').config();
+require('dotenv').config('https://shop-smart-ai-ten.vercel.app/');
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 const connectDB = require('./config/db');

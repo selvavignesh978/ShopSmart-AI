@@ -1,10 +1,7 @@
 node_modules/
-# .env
-# .env.*
-<<<<<<< HEAD
-=======
-# *.env
->>>>>>> 51eca54 (chore: remove secrets and update gitignore)
-# shopsmart-backend/.env
-# shopsmart-frontend/.env
+.env
+.env.*
+*.env
+shopsmart-backend/.env
+shopsmart-frontend/.env
 dist/
